@@ -24,3 +24,19 @@ function fizzBuzz(input){
 
 }
 
+// ChatGpt answer --
+
+// function fizzBuzz(input) {
+//     if (isNaN(input)) return "Not a Number";
+//     if (input % 3 === 0 && input % 5 === 0) return "FizzBuzz";
+//     if (input % 3 === 0) return "Fizz";
+//     if (input % 5 === 0) return "Buzz";
+//     return input;
+//   }
+  
+//   console.log(fizzBuzz(3)); // Fizz
+//   console.log(fizzBuzz(5)); // Buzz
+//   console.log(fizzBuzz(15)); // FizzBuzz
+//   console.log(fizzBuzz(7)); // 7
+//   console.log(fizzBuzz("hello")); // Not a Number
+  
